@@ -24,7 +24,9 @@ public class JobController {
     public String handle() throws Exception {
         return "Batch job has been invoked";
     }
-    
+
+    // create end point and print table from Clarity -- real data.
+
     @GetMapping(value = "/findallsampltTablelist", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<SampleTable> findAllSampleTableList() {
     	return jobService.findAllSampleTableList();
