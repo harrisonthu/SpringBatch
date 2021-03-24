@@ -1,0 +1,33 @@
+package com.kp.soi.app.dto;
+
+public class ModelClass {
+	
+	
+	
+	private int padId;
+	private int padEncCsnId;
+    private Integer dxId;
+    private String primaryDxYn;
+    private String dxChronicYn;
+    private String code;
+    private String dxName;
+    private String contactDate;
+	/*
+	 * HCCLSC.PAT_ENC_DX.PAT_ID,
+HCCLSC.PAT_ENC_DX.PAT_ENC_CSN_ID,
+HCCLSC.PAT_ENC_DX.LINE,
+HCCLSC.PAT_ENC_DX.DX_ID,
+HCCLSC.PAT_ENC_DX.ANNOTATION,
+HCCLSC.PAT_ENC_DX.COMMENTS,
+HCCLSC.PAT_ENC_DX.DX_UNIQUE,
+HCCLSC.PAT_ENC_DX.DX_ED_YN,
+PAT_ENC_DX.PRIMARY_DX_YN,
+PAT_ENC_DX.DX_CHRONIC_YN,
+HCCLSC.EDG_CURRENT_ICD10.CODE,
+HCCLSC.CLARITY_EDG.EXTERNAL_ID,
+HCCLSC.CLARITY_EDG.DX_NAME,
+HCCLSC.CLARITY_EDG.DX_GROUP,
+HCCLSC.CLARITY_EDG.PARENT_DX_ID,
+	 */
+
+}
